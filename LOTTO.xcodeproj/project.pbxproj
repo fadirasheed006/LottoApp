@@ -8,22 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		29A1FDDD272E73D400C24FD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A1FDDC272E73D400C24FD1 /* AppDelegate.swift */; };
-		29A1FDDF272E73D400C24FD1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A1FDDE272E73D400C24FD1 /* SceneDelegate.swift */; };
 		29A1FDE1272E73D400C24FD1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A1FDE0272E73D400C24FD1 /* ViewController.swift */; };
 		29A1FDE4272E73D400C24FD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29A1FDE2272E73D400C24FD1 /* Main.storyboard */; };
 		29A1FDE6272E73D600C24FD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29A1FDE5272E73D600C24FD1 /* Assets.xcassets */; };
 		29A1FDE9272E73D600C24FD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29A1FDE7272E73D600C24FD1 /* LaunchScreen.storyboard */; };
+		29A1FDF1272E742100C24FD1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 29A1FDF0272E742100C24FD1 /* GoogleService-Info.plist */; };
+		29A1FDF3272E771100C24FD1 /* RemoteManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A1FDF2272E771100C24FD1 /* RemoteManager.swift */; };
+		29A1FDF5272E848F00C24FD1 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A1FDF4272E848F00C24FD1 /* WebViewController.swift */; };
+		29A1FDF7272EA6E200C24FD1 /* BrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A1FDF6272EA6E200C24FD1 /* BrowserViewController.swift */; };
+		C48DCD8147607BA5AEE47A9E /* Pods_LOTTO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 373C62F030D939D7D26D16F8 /* Pods_LOTTO.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		29A1FDD9272E73D400C24FD1 /* LOTTO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LOTTO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		29A1FDDC272E73D400C24FD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		29A1FDDE272E73D400C24FD1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		29A1FDE0272E73D400C24FD1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		29A1FDE3272E73D400C24FD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		29A1FDE5272E73D600C24FD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		29A1FDE8272E73D600C24FD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		29A1FDEA272E73D600C24FD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29A1FDF0272E742100C24FD1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		29A1FDF2272E771100C24FD1 /* RemoteManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteManager.swift; sourceTree = "<group>"; };
+		29A1FDF4272E848F00C24FD1 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		29A1FDF6272EA6E200C24FD1 /* BrowserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowserViewController.swift; sourceTree = "<group>"; };
+		373C62F030D939D7D26D16F8 /* Pods_LOTTO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LOTTO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		52812A78E279FA45763B8C06 /* Pods-LOTTO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LOTTO.debug.xcconfig"; path = "Target Support Files/Pods-LOTTO/Pods-LOTTO.debug.xcconfig"; sourceTree = "<group>"; };
+		75C79EE19C36C12ADD860800 /* Pods-LOTTO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LOTTO.release.xcconfig"; path = "Target Support Files/Pods-LOTTO/Pods-LOTTO.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C48DCD8147607BA5AEE47A9E /* Pods_LOTTO.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +53,8 @@
 			children = (
 				29A1FDDB272E73D400C24FD1 /* LOTTO */,
 				29A1FDDA272E73D400C24FD1 /* Products */,
+				60829E8E821682D67AF482C0 /* Pods */,
+				AB497435E258D96A6E3C7FC8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +70,34 @@
 			isa = PBXGroup;
 			children = (
 				29A1FDDC272E73D400C24FD1 /* AppDelegate.swift */,
-				29A1FDDE272E73D400C24FD1 /* SceneDelegate.swift */,
+				29A1FDF6272EA6E200C24FD1 /* BrowserViewController.swift */,
 				29A1FDE0272E73D400C24FD1 /* ViewController.swift */,
 				29A1FDE2272E73D400C24FD1 /* Main.storyboard */,
+				29A1FDF0272E742100C24FD1 /* GoogleService-Info.plist */,
 				29A1FDE5272E73D600C24FD1 /* Assets.xcassets */,
 				29A1FDE7272E73D600C24FD1 /* LaunchScreen.storyboard */,
 				29A1FDEA272E73D600C24FD1 /* Info.plist */,
+				29A1FDF2272E771100C24FD1 /* RemoteManager.swift */,
+				29A1FDF4272E848F00C24FD1 /* WebViewController.swift */,
 			);
 			path = LOTTO;
+			sourceTree = "<group>";
+		};
+		60829E8E821682D67AF482C0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				52812A78E279FA45763B8C06 /* Pods-LOTTO.debug.xcconfig */,
+				75C79EE19C36C12ADD860800 /* Pods-LOTTO.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AB497435E258D96A6E3C7FC8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				373C62F030D939D7D26D16F8 /* Pods_LOTTO.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +107,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 29A1FDED272E73D600C24FD1 /* Build configuration list for PBXNativeTarget "LOTTO" */;
 			buildPhases = (
+				4278D1407662123D032E6338 /* [CP] Check Pods Manifest.lock */,
 				29A1FDD5272E73D400C24FD1 /* Sources */,
 				29A1FDD6272E73D400C24FD1 /* Frameworks */,
 				29A1FDD7272E73D400C24FD1 /* Resources */,
+				0BC690072F190E7C033C4CD0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				29A1FDE9272E73D600C24FD1 /* LaunchScreen.storyboard in Resources */,
+				29A1FDF1272E742100C24FD1 /* GoogleService-Info.plist in Resources */,
 				29A1FDE6272E73D600C24FD1 /* Assets.xcassets in Resources */,
 				29A1FDE4272E73D400C24FD1 /* Main.storyboard in Resources */,
 			);
@@ -133,14 +169,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0BC690072F190E7C033C4CD0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LOTTO/Pods-LOTTO-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LOTTO/Pods-LOTTO-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LOTTO/Pods-LOTTO-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4278D1407662123D032E6338 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LOTTO-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		29A1FDD5272E73D400C24FD1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				29A1FDE1272E73D400C24FD1 /* ViewController.swift in Sources */,
+				29A1FDF3272E771100C24FD1 /* RemoteManager.swift in Sources */,
+				29A1FDF7272EA6E200C24FD1 /* BrowserViewController.swift in Sources */,
 				29A1FDDD272E73D400C24FD1 /* AppDelegate.swift in Sources */,
-				29A1FDDF272E73D400C24FD1 /* SceneDelegate.swift in Sources */,
+				29A1FDF5272E848F00C24FD1 /* WebViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +364,7 @@
 		};
 		29A1FDEE272E73D600C24FD1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52812A78E279FA45763B8C06 /* Pods-LOTTO.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -311,6 +392,7 @@
 		};
 		29A1FDEF272E73D600C24FD1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75C79EE19C36C12ADD860800 /* Pods-LOTTO.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

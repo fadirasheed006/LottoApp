@@ -31,7 +31,8 @@ class RemoteConfigManager: NSObject {
     }
     
     func getAPP_MODE()->String{
-       return RemoteConfig.remoteConfig().configValue(forKey: "APP_MODE").stringValue ?? "0"
+        return "4"
+     //  return RemoteConfig.remoteConfig().configValue(forKey: "APP_MODE").stringValue ?? "0"
     }
     
     func getUrlType()->String{

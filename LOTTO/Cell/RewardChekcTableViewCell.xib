@@ -35,7 +35,7 @@
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ilj-4T-HuI">
                         <rect key="frame" x="20" y="33.5" width="454" height="40"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter Value" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Klh-DI-JQf">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="เลขสลากของคุณ" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Klh-DI-JQf">
                                 <rect key="frame" x="20" y="0.0" width="414" height="40"/>
                                 <fontDescription key="fontDescription" name="NotoSansThai-Regular" family="Noto Sans Thai" pointSize="13"/>
                                 <textInputTraits key="textInputTraits"/>

@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="NotoSansThai-Bold.ttf">
+            <string>NotoSansThai-Bold</string>
+        </array>
+        <array key="NotoSansThai-Medium.ttf">
+            <string>NotoSansThai-Medium</string>
+        </array>
+        <array key="NotoSansThai-Regular.ttf">
+            <string>NotoSansThai-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="582" id="KGk-i7-Jjw" customClass="FristPrizeTableViewCell" customModule="LOTTO" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="322" height="582"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="322" height="582"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8q9-aM-13b">
+                        <rect key="frame" x="20" y="80" width="282" height="482"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="YdD-al-iWs">
+                                <rect key="frame" x="10" y="10" width="262" height="72.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4XE-IF-TxN">
+                                        <rect key="frame" x="115" y="0.0" width="32" height="20"/>
+                                        <fontDescription key="fontDescription" name="NotoSansThai-Regular" family="Noto Sans Thai" pointSize="13"/>
+                                        <color key="textColor" red="0.97254901959999995" green="0.87843137250000003" blue="0.4549019608" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jmL-2u-KAj">
+                                        <rect key="frame" x="115" y="24" width="32" height="20"/>
+                                        <fontDescription key="fontDescription" name="NotoSansThai-Regular" family="Noto Sans Thai" pointSize="13"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CIl-7o-Mja">
+                                        <rect key="frame" x="111.5" y="48" width="39.5" height="24.5"/>
+                                        <fontDescription key="fontDescription" name="NotoSansThai-Medium" family="Noto Sans Thai" pointSize="16"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="Miu-pv-BlX">
+                                <rect key="frame" x="10" y="102.5" width="262" height="72.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wd6-3a-qKa">
+                                        <rect key="frame" x="115" y="0.0" width="32" height="20"/>
+                                        <fontDescription key="fontDescription" name="NotoSansThai-Regular" family="Noto Sans Thai" pointSize="13"/>
+                                        <color key="textColor" red="0.97254901959999995" green="0.87843137250000003" blue="0.4549019608" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Faa-nk-fm0">
+                                        <rect key="frame" x="115" y="24" width="32" height="20"/>
+                                        <fontDescription key="fontDescription" name="NotoSansThai-Regular" family="Noto Sans Thai" pointSize="13"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="WpZ-Lj-DrD">
+                                        <rect key="frame" x="66.5" y="48" width="129" height="24.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CGk-cp-qgb">
+                                                <rect key="frame" x="0.0" y="0.0" width="39.5" height="24.5"/>
+                                                <fontDescription key="fontDescription" name="NotoSansThai-Medium" family="Noto Sans Thai" pointSize="16"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="55f-jV-4K1">
+                                                <rect key="frame" x="89.5" y="0.0" width="39.5" height="24.5"/>
+                                                <fontDescription key="fontDescription" name="NotoSansThai-Medium" family="Noto Sans Thai" pointSize="16"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <stackView hidden="YES" opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="HoD-bq-fF1">
+                                <rect key="frame" x="10" y="195" width="262" height="72.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AAE-bf-K0m">
+                                        <rect key="frame" x="115" y="0.0" width="32" height="20"/>
+                                        <fontDescription key="fontDescription" name="NotoSansThai-Regular" family="Noto Sans Thai" pointSize="13"/>
+                                        <color key="textColor" red="0.97254901959999995" green="0.87843137250000003" blue="0.4549019608" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lkx-Ry-5iE">
+                                        <rect key="frame" x="115" y="24" width="32" height="20"/>
+                                        <fontDescription key="fontDescription" name="NotoSansThai-Regular" family="Noto Sans Thai" pointSize="13"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jY5-Da-Ao3">
+                                        <rect key="frame" x="111.5" y="48" width="39.5" height="24.5"/>
+                                        <fontDescription key="fontDescription" name="NotoSansThai-Medium" family="Noto Sans Thai" pointSize="16"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <stackView hidden="YES" opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="VS3-7a-TXJ">
+                                <rect key="frame" x="10" y="283" width="262" height="72.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t8v-7n-XLS">
+                                        <rect key="frame" x="115" y="0.0" width="32" height="20"/>
+                                        <fontDescription key="fontDescription" name="NotoSansThai-Regular" family="Noto Sans Thai" pointSize="13"/>
+                                        <color key="textColor" red="0.97254901959999995" green="0.87843137250000003" blue="0.4549019608" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F9g-jE-wcU">
+                                        <rect key="frame" x="115" y="24" width="32" height="20"/>
+                                        <fontDescription key="fontDescription" name="NotoSansThai-Regular" family="Noto Sans Thai" pointSize="13"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qF7-O7-6MQ">
+                                        <rect key="frame" x="111.5" y="48" width="39.5" height="24.5"/>
+                                        <fontDescription key="fontDescription" name="NotoSansThai-Medium" family="Noto Sans Thai" pointSize="16"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <stackView hidden="YES" opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="rm8-Dj-uq8">
+                                <rect key="frame" x="10" y="396" width="262" height="72.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dm3-Oh-TsB">
+                                        <rect key="frame" x="115" y="0.0" width="32" height="20"/>
+                                        <fontDescription key="fontDescription" name="NotoSansThai-Regular" family="Noto Sans Thai" pointSize="13"/>
+                                        <color key="textColor" red="0.97254901959999995" green="0.87843137250000003" blue="0.4549019608" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wLZ-ay-udo">
+                                        <rect key="frame" x="115" y="24" width="32" height="20"/>
+                                        <fontDescription key="fontDescription" name="NotoSansThai-Regular" family="Noto Sans Thai" pointSize="13"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zMf-1U-yBD">
+                                        <rect key="frame" x="111.5" y="48" width="39.5" height="24.5"/>
+                                        <fontDescription key="fontDescription" name="NotoSansThai-Medium" family="Noto Sans Thai" pointSize="16"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.35686274509803922" green="0.14901960784313725" blue="0.80784313725490198" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="Miu-pv-BlX" firstAttribute="leading" secondItem="8q9-aM-13b" secondAttribute="leading" constant="10" id="56M-mA-Xm7"/>
+                            <constraint firstAttribute="trailing" secondItem="YdD-al-iWs" secondAttribute="trailing" constant="10" id="8Zc-PW-uL8"/>
+                            <constraint firstItem="HoD-bq-fF1" firstAttribute="leading" secondItem="Miu-pv-BlX" secondAttribute="leading" id="CED-qT-GXp"/>
+                            <constraint firstItem="Miu-pv-BlX" firstAttribute="top" secondItem="YdD-al-iWs" secondAttribute="bottom" constant="20" id="E4V-mw-Kdg"/>
+                            <constraint firstItem="rm8-Dj-uq8" firstAttribute="top" secondItem="VS3-7a-TXJ" secondAttribute="bottom" constant="40.5" id="Pdc-Cw-kPn"/>
+                            <constraint firstItem="YdD-al-iWs" firstAttribute="top" secondItem="8q9-aM-13b" secondAttribute="top" constant="10" id="QJv-kt-gho"/>
+                            <constraint firstItem="rm8-Dj-uq8" firstAttribute="trailing" secondItem="VS3-7a-TXJ" secondAttribute="trailing" id="W2u-op-NwR"/>
+                            <constraint firstItem="rm8-Dj-uq8" firstAttribute="leading" secondItem="VS3-7a-TXJ" secondAttribute="leading" id="gQV-LL-DvR"/>
+                            <constraint firstItem="VS3-7a-TXJ" firstAttribute="top" secondItem="HoD-bq-fF1" secondAttribute="bottom" constant="15.5" id="lXg-t5-kWF"/>
+                            <constraint firstItem="VS3-7a-TXJ" firstAttribute="leading" secondItem="HoD-bq-fF1" secondAttribute="leading" id="mbo-oI-sCt"/>
+                            <constraint firstItem="HoD-bq-fF1" firstAttribute="trailing" secondItem="Miu-pv-BlX" secondAttribute="trailing" id="q6V-6e-2lD"/>
+                            <constraint firstItem="YdD-al-iWs" firstAttribute="leading" secondItem="8q9-aM-13b" secondAttribute="leading" constant="10" id="uQw-dv-wUP"/>
+                            <constraint firstItem="VS3-7a-TXJ" firstAttribute="trailing" secondItem="HoD-bq-fF1" secondAttribute="trailing" id="xRe-lg-3Ys"/>
+                            <constraint firstItem="HoD-bq-fF1" firstAttribute="top" secondItem="Miu-pv-BlX" secondAttribute="bottom" constant="20" id="ygj-Re-jfD"/>
+                            <constraint firstAttribute="trailing" secondItem="Miu-pv-BlX" secondAttribute="trailing" constant="10" id="zsH-Wk-xeW"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HyV-Fe-vwd">
+                        <rect key="frame" x="20" y="20" width="282" height="40"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ผลรางวัลสลาก" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gy5-dr-SFY">
+                                <rect key="frame" x="15" y="5" width="86.5" height="30"/>
+                                <fontDescription key="fontDescription" name="NotoSansThai-Bold" family="Noto Sans Thai" pointSize="14"/>
+                                <color key="textColor" red="0.97254901959999995" green="0.87843137250000003" blue="0.4549019608" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ผลรางวัลสลาก" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SUT-GY-jsZ">
+                                <rect key="frame" x="185.5" y="5" width="86.5" height="30"/>
+                                <fontDescription key="fontDescription" name="NotoSansThai-Bold" family="Noto Sans Thai" pointSize="14"/>
+                                <color key="textColor" red="0.87058823529411766" green="0.34509803921568627" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.078431372550000003" green="0.0078431372550000003" blue="0.22352941179999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="gy5-dr-SFY" firstAttribute="top" secondItem="HyV-Fe-vwd" secondAttribute="top" constant="5" id="CRB-xW-Svn"/>
+                            <constraint firstAttribute="bottom" secondItem="gy5-dr-SFY" secondAttribute="bottom" constant="5" id="CSX-va-yhH"/>
+                            <constraint firstAttribute="trailing" secondItem="SUT-GY-jsZ" secondAttribute="trailing" constant="10" id="OQe-2d-Omg"/>
+                            <constraint firstAttribute="bottom" secondItem="SUT-GY-jsZ" secondAttribute="bottom" constant="5" id="QuL-gF-yVp"/>
+                            <constraint firstItem="SUT-GY-jsZ" firstAttribute="top" secondItem="HyV-Fe-vwd" secondAttribute="top" constant="5" id="U3C-6D-QK4"/>
+                            <constraint firstAttribute="height" constant="40" id="vEX-EN-jFY"/>
+                            <constraint firstItem="gy5-dr-SFY" firstAttribute="leading" secondItem="HyV-Fe-vwd" secondAttribute="leading" constant="15" id="vLb-Df-wNX"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="HyV-Fe-vwd" secondAttribute="trailing" constant="20" id="Ti8-RI-TAW"/>
+                    <constraint firstItem="8q9-aM-13b" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="ULi-1q-g8K"/>
+                    <constraint firstAttribute="bottom" secondItem="8q9-aM-13b" secondAttribute="bottom" constant="20" id="WGh-6s-Hdp"/>
+                    <constraint firstItem="8q9-aM-13b" firstAttribute="top" secondItem="HyV-Fe-vwd" secondAttribute="bottom" constant="20" id="ado-3o-OlM"/>
+                    <constraint firstAttribute="trailing" secondItem="8q9-aM-13b" secondAttribute="trailing" constant="20" id="lyw-Eg-KfE"/>
+                    <constraint firstItem="HyV-Fe-vwd" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="msa-RZ-ido"/>
+                    <constraint firstItem="HyV-Fe-vwd" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="20" id="pKm-ut-Yk8"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="lbl2ndName" destination="Wd6-3a-qKa" id="AK7-Iv-PJf"/>
+                <outlet property="lbl2ndNumber2" destination="55f-jV-4K1" id="mm4-En-qxh"/>
+                <outlet property="lbl2ndNunber1" destination="CGk-cp-qgb" id="I3I-0d-UAp"/>
+                <outlet property="lbl2ndReward" destination="Faa-nk-fm0" id="Pq1-c8-cLV"/>
+                <outlet property="lblDate" destination="SUT-GY-jsZ" id="a6J-CN-0D2"/>
+                <outlet property="lblLotto1NAme" destination="4XE-IF-TxN" id="buh-YA-IHF"/>
+                <outlet property="lblLotto1Number" destination="CIl-7o-Mja" id="tgL-m1-5RB"/>
+                <outlet property="lblLotto1Reward" destination="jmL-2u-KAj" id="Msd-0g-kaG"/>
+                <outlet property="viewContainer" destination="8q9-aM-13b" id="W3t-5t-p3B"/>
+            </connections>
+            <point key="canvasLocation" x="139.13043478260872" y="255.80357142857142"/>
+        </tableViewCell>
+    </objects>
+</document>

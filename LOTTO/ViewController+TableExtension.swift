@@ -9,10 +9,14 @@ import UIKit
 
 extension ViewController:UITableViewDelegate,UITableViewDataSource{
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        1
+        print(dataSource.count)
+        return self.dataSource.count
+        
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let row = dataSource[indexPath.row]
+        if  row.cellType == .txt{
         let cell = tableView.dequeueReusableCell(withIdentifier: "RewardChekcTableViewCell", for: indexPath) as! RewardChekcTableViewCell
         
         cell.onDropDownCallBack = {
@@ -29,10 +33,31 @@ extension ViewController:UITableViewDelegate,UITableViewDataSource{
         }
         cell.loadCellData(value:latestThaiDate)
         return cell
+        } else if row.cellType == .first{
+            let cell = tableView.dequeueReusableCell(withIdentifier: "FristPrizeTableViewCell", for: indexPath) as! FristPrizeTableViewCell
+            let model = row.model
+            cell.loadCellData(list:model)
+            return cell
+            
+        }else{
+            let cell = tableView.dequeueReusableCell(withIdentifier: "RewardsLsitTableViewCell", for: indexPath) as! RewardsLsitTableViewCell
+           
+            let model = row.rewardModel ?? LatestDateResultList()
+            cell.loadCellData(model:model)
+            
+            return cell
+        }
+     
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        if indexPath.row == 0 {
         return 250
+        }else if indexPath.row == 1{
+            return 382
+        }else{
+           return UITableView.automaticDimension
+        }
     }
     
 

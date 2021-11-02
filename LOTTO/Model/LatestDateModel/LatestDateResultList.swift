@@ -14,7 +14,7 @@ class LatestDateResultList : NSObject, NSCoding, Mappable{
 	var amount : Int?
 	var id : String?
 	var name : String?
-	var number : [String]? = []
+	var number : Any?
 	var reward : Int?
 
 
@@ -43,7 +43,7 @@ class LatestDateResultList : NSObject, NSCoding, Mappable{
          amount = aDecoder.decodeObject(forKey: "amount") as? Int
          id = aDecoder.decodeObject(forKey: "id") as? String
          name = aDecoder.decodeObject(forKey: "name") as? String
-         number = aDecoder.decodeObject(forKey: "number") as? [String]
+         number = aDecoder.decodeObject(forKey: "number") as? Any
          reward = aDecoder.decodeObject(forKey: "reward") as? Int
 
 	}

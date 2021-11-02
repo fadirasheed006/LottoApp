@@ -26,16 +26,44 @@ class ViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
     
     @IBOutlet weak var pickerView: UIPickerView!
-    
     var pickerArray:[AllDates] = []
+    
+    var dataSource:[RowsModel] = []
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.register(UINib(nibName: "RewardChekcTableViewCell", bundle: nil), forCellReuseIdentifier: "RewardChekcTableViewCell")
+        tableView.register(UINib(nibName: "FristPrizeTableViewCell", bundle: nil), forCellReuseIdentifier: "FristPrizeTableViewCell")
+        //
+        tableView.register(UINib(nibName: "RewardsLsitTableViewCell", bundle: nil), forCellReuseIdentifier: "RewardsLsitTableViewCell")
+        
         GetALlDateAPiCall()
             pickerView.isHidden = true
         
     }
     
+    
+    func createRows(list:[LatestDateResultList]){
+        let row1 = RowsModel()
+        row1.cellType = .txt
+        dataSource.append(row1)
+        
+        let row2 = RowsModel()
+        row2.cellType = .first
+        row2.model = list
+        dataSource.append(row2)
+        
+        for (index,item) in  list.enumerated() {
+            if (index == 0 || index == 1){
+              
+            }else{
+                let row = RowsModel()
+                row.cellType = .rewards
+                row.rewardModel = item
+                dataSource.append(row)
+            }
+        }
+        
+    }
     //
     
     func GetVerifyDataAPiCall(date:String,textValue:String){
@@ -57,7 +85,6 @@ class ViewController: UIViewController {
                   }else{
                       let reward = userData.result?.first?.reward ?? 0
                       ToastMessages.showMessage(message: "คุณถูกรางวัลที่ 1 จำนวน \(reward) บาท", theme: .success, title: "หมายเลข \(textValue)")
-                      print(userData.result?.first?.toJSON())
                   }
                   self.tableView.reloadData()
               }
@@ -120,8 +147,9 @@ class ViewController: UIViewController {
                   let status = json["code"] as? String
                   guard let userData = Mapper<LatestDateResponse>().map(JSON: json) else { return }
                   if (status == "200"){
-                     print(userData.result?.toJSON())
-                   //   self.tableView.reloadData()
+                      self.createRows(list: userData.result ?? [])
+                      self.tableView.reloadData()
+                  
                   }
                   
               }

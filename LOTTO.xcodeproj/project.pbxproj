@@ -16,6 +16,13 @@
 		294AAF66272FBA660094769D /* NotoSansThai-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 294AAF5D272FBA660094769D /* NotoSansThai-Light.ttf */; };
 		294AAF67272FBA660094769D /* NotoSansThai-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 294AAF5E272FBA660094769D /* NotoSansThai-Thin.ttf */; };
 		294AAF68272FBA660094769D /* NotoSansThai-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 294AAF5F272FBA660094769D /* NotoSansThai-Black.ttf */; };
+		2977E6802731AC9E000DF66F /* FristPrizeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2977E67E2731AC9E000DF66F /* FristPrizeTableViewCell.swift */; };
+		2977E6812731AC9E000DF66F /* FristPrizeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2977E67F2731AC9E000DF66F /* FristPrizeTableViewCell.xib */; };
+		2977E6842731BB7B000DF66F /* RewardsLsitTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2977E6822731BB7B000DF66F /* RewardsLsitTableViewCell.swift */; };
+		2977E6852731BB7B000DF66F /* RewardsLsitTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2977E6832731BB7B000DF66F /* RewardsLsitTableViewCell.xib */; };
+		2977E6882731BD08000DF66F /* NumberCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2977E6862731BD08000DF66F /* NumberCollectionViewCell.swift */; };
+		2977E6892731BD08000DF66F /* NumberCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2977E6872731BD08000DF66F /* NumberCollectionViewCell.xib */; };
+		2977E68B2731C7EB000DF66F /* RowsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2977E68A2731C7EB000DF66F /* RowsModel.swift */; };
 		29A1FDDD272E73D400C24FD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A1FDDC272E73D400C24FD1 /* AppDelegate.swift */; };
 		29A1FDE1272E73D400C24FD1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A1FDE0272E73D400C24FD1 /* ViewController.swift */; };
 		29A1FDE4272E73D400C24FD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29A1FDE2272E73D400C24FD1 /* Main.storyboard */; };
@@ -49,6 +56,13 @@
 		294AAF5D272FBA660094769D /* NotoSansThai-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansThai-Light.ttf"; sourceTree = "<group>"; };
 		294AAF5E272FBA660094769D /* NotoSansThai-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansThai-Thin.ttf"; sourceTree = "<group>"; };
 		294AAF5F272FBA660094769D /* NotoSansThai-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansThai-Black.ttf"; sourceTree = "<group>"; };
+		2977E67E2731AC9E000DF66F /* FristPrizeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FristPrizeTableViewCell.swift; sourceTree = "<group>"; };
+		2977E67F2731AC9E000DF66F /* FristPrizeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FristPrizeTableViewCell.xib; sourceTree = "<group>"; };
+		2977E6822731BB7B000DF66F /* RewardsLsitTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardsLsitTableViewCell.swift; sourceTree = "<group>"; };
+		2977E6832731BB7B000DF66F /* RewardsLsitTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RewardsLsitTableViewCell.xib; sourceTree = "<group>"; };
+		2977E6862731BD08000DF66F /* NumberCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberCollectionViewCell.swift; sourceTree = "<group>"; };
+		2977E6872731BD08000DF66F /* NumberCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NumberCollectionViewCell.xib; sourceTree = "<group>"; };
+		2977E68A2731C7EB000DF66F /* RowsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowsModel.swift; sourceTree = "<group>"; };
 		29A1FDD9272E73D400C24FD1 /* LOTTO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LOTTO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		29A1FDDC272E73D400C24FD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		29A1FDE0272E73D400C24FD1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -131,6 +145,7 @@
 				29A1FDDC272E73D400C24FD1 /* AppDelegate.swift */,
 				29A1FDF6272EA6E200C24FD1 /* BrowserViewController.swift */,
 				29A1FDE0272E73D400C24FD1 /* ViewController.swift */,
+				29C0B9F927311D4E0070C523 /* ViewController+TableExtension.swift */,
 				29A1FDE2272E73D400C24FD1 /* Main.storyboard */,
 				29A1FDF0272E742100C24FD1 /* GoogleService-Info.plist */,
 				294AAF56272FBA660094769D /* NotoSansThai */,
@@ -140,7 +155,6 @@
 				29A1FDF2272E771100C24FD1 /* RemoteManager.swift */,
 				29A1FDF4272E848F00C24FD1 /* WebViewController.swift */,
 				29C0B9F7273118340070C523 /* Theme.xcassets */,
-				29C0B9F927311D4E0070C523 /* ViewController+TableExtension.swift */,
 			);
 			path = LOTTO;
 			sourceTree = "<group>";
@@ -153,6 +167,7 @@
 				29C0BA0027315BA20070C523 /* LatestDateModel */,
 				29C0B9FC2731508D0070C523 /* AllDates.swift */,
 				29C0B9FD2731508E0070C523 /* AllDateResponse.swift */,
+				2977E68A2731C7EB000DF66F /* RowsModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -179,6 +194,12 @@
 			children = (
 				29C9A08327302012007D085E /* RewardChekcTableViewCell.swift */,
 				29C9A08427302012007D085E /* RewardChekcTableViewCell.xib */,
+				2977E67E2731AC9E000DF66F /* FristPrizeTableViewCell.swift */,
+				2977E67F2731AC9E000DF66F /* FristPrizeTableViewCell.xib */,
+				2977E6822731BB7B000DF66F /* RewardsLsitTableViewCell.swift */,
+				2977E6832731BB7B000DF66F /* RewardsLsitTableViewCell.xib */,
+				2977E6862731BD08000DF66F /* NumberCollectionViewCell.swift */,
+				2977E6872731BD08000DF66F /* NumberCollectionViewCell.xib */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -261,6 +282,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				294AAF67272FBA660094769D /* NotoSansThai-Thin.ttf in Resources */,
+				2977E6852731BB7B000DF66F /* RewardsLsitTableViewCell.xib in Resources */,
+				2977E6812731AC9E000DF66F /* FristPrizeTableViewCell.xib in Resources */,
 				29C9A08627302012007D085E /* RewardChekcTableViewCell.xib in Resources */,
 				294AAF68272FBA660094769D /* NotoSansThai-Black.ttf in Resources */,
 				29A1FDE9272E73D600C24FD1 /* LaunchScreen.storyboard in Resources */,
@@ -275,6 +298,7 @@
 				29C0B9F8273118340070C523 /* Theme.xcassets in Resources */,
 				29A1FDE6272E73D600C24FD1 /* Assets.xcassets in Resources */,
 				29A1FDE4272E73D400C24FD1 /* Main.storyboard in Resources */,
+				2977E6892731BD08000DF66F /* NumberCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,14 +351,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2977E6842731BB7B000DF66F /* RewardsLsitTableViewCell.swift in Sources */,
+				2977E6882731BD08000DF66F /* NumberCollectionViewCell.swift in Sources */,
 				29A1FDE1272E73D400C24FD1 /* ViewController.swift in Sources */,
 				29C0BA0827316A200070C523 /* Result.swift in Sources */,
 				29A1FDF3272E771100C24FD1 /* RemoteManager.swift in Sources */,
 				29C0BA0B273171100070C523 /* ToastMessage.swift in Sources */,
 				29A1FDF7272EA6E200C24FD1 /* BrowserViewController.swift in Sources */,
 				29C0BA0427315BB40070C523 /* LatestDateResponse.swift in Sources */,
+				2977E68B2731C7EB000DF66F /* RowsModel.swift in Sources */,
 				29C0BA0727316A200070C523 /* VerifyResponse.swift in Sources */,
 				29A1FDDD272E73D400C24FD1 /* AppDelegate.swift in Sources */,
+				2977E6802731AC9E000DF66F /* FristPrizeTableViewCell.swift in Sources */,
 				29C0B9FF2731508E0070C523 /* AllDateResponse.swift in Sources */,
 				29C0B9FA27311D4E0070C523 /* ViewController+TableExtension.swift in Sources */,
 				29C0BA0327315BB40070C523 /* LatestDateResultList.swift in Sources */,

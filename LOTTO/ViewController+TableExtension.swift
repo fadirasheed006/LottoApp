@@ -25,7 +25,7 @@ extension ViewController:UITableViewDelegate,UITableViewDataSource{
         cell.validationCallBack = {
             model in
             if model == "" {
-            self.showPopUpToast(message:"Enter atleast 6 Digits")
+            self.showPopUpToast(message:"ป้อนอย่างน้อย 6 หลัก")
             }else{
                 self.GetVerifyDataAPiCall(date: lotteryNumber, textValue: model)
                 print(model)
@@ -41,9 +41,15 @@ extension ViewController:UITableViewDelegate,UITableViewDataSource{
             
         }else{
             let cell = tableView.dequeueReusableCell(withIdentifier: "RewardsLsitTableViewCell", for: indexPath) as! RewardsLsitTableViewCell
-           
             let model = row.rewardModel ?? LatestDateResultList()
             cell.loadCellData(model:model)
+            if let layout = cell.collectionView.collectionViewLayout as? UICollectionViewFlowLayout {
+                layout.scrollDirection = .vertical  // .horizontal
+            }
+            cell.collectionView.collectionViewLayout.invalidateLayout()
+            cell.heightConstrain.constant =  cell.collectionView.collectionViewLayout.collectionViewContentSize.height 
+
+           
             
             return cell
         }

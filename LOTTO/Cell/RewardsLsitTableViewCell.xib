@@ -38,10 +38,13 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="GYj-IP-SPH">
-                                <rect key="frame" x="10" y="84.5" width="254" height="124.5"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <rect key="frame" x="0.0" y="84.5" width="274" height="124.5"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="124.5" id="sPi-gP-dL1"/>
+                                </constraints>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="1" minimumInteritemSpacing="1" id="hfJ-E6-k5X">
-                                    <size key="itemSize" width="128" height="128"/>
+                                    <size key="itemSize" width="80" height="40"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
@@ -57,8 +60,8 @@
                             <constraint firstAttribute="bottom" secondItem="GYj-IP-SPH" secondAttribute="bottom" constant="10" id="Yqg-YR-uq3"/>
                             <constraint firstAttribute="trailing" secondItem="uUg-S4-34K" secondAttribute="trailing" constant="10" id="ZIE-qS-3Ju"/>
                             <constraint firstItem="uUg-S4-34K" firstAttribute="top" secondItem="v9W-ok-yf7" secondAttribute="bottom" constant="10" id="iZM-ca-Ug6"/>
-                            <constraint firstAttribute="trailing" secondItem="GYj-IP-SPH" secondAttribute="trailing" constant="10" id="nhf-Cc-jYA"/>
-                            <constraint firstItem="GYj-IP-SPH" firstAttribute="leading" secondItem="tH1-1g-e9X" secondAttribute="leading" constant="10" id="pMu-OH-RhW"/>
+                            <constraint firstAttribute="trailing" secondItem="GYj-IP-SPH" secondAttribute="trailing" id="nhf-Cc-jYA"/>
+                            <constraint firstItem="GYj-IP-SPH" firstAttribute="leading" secondItem="tH1-1g-e9X" secondAttribute="leading" id="pMu-OH-RhW"/>
                             <constraint firstItem="uUg-S4-34K" firstAttribute="leading" secondItem="tH1-1g-e9X" secondAttribute="leading" constant="10" id="ptX-uw-lTW"/>
                         </constraints>
                     </view>
@@ -74,6 +77,7 @@
             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <connections>
                 <outlet property="collectionView" destination="GYj-IP-SPH" id="Lxg-WU-OLk"/>
+                <outlet property="heightConstrain" destination="sPi-gP-dL1" id="Ka8-9s-Z2y"/>
                 <outlet property="lblName" destination="v9W-ok-yf7" id="9PQ-Pz-dQc"/>
                 <outlet property="lblReward" destination="uUg-S4-34K" id="mii-h7-7wb"/>
                 <outlet property="viewContainer" destination="tH1-1g-e9X" id="k0T-pr-wJe"/>

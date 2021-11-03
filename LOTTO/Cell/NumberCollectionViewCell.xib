@@ -22,7 +22,7 @@
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 <subviews>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jei-AN-lZj">
-                        <rect key="frame" x="10" y="5" width="121" height="40"/>
+                        <rect key="frame" x="10" y="0.0" width="121" height="50"/>
                         <fontDescription key="fontDescription" name="NotoSansThai-Regular" family="Noto Sans Thai" pointSize="13"/>
                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <nil key="highlightedColor"/>
@@ -32,8 +32,8 @@
             <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
             <constraints>
                 <constraint firstItem="Jei-AN-lZj" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="10" id="6y6-NS-47E"/>
-                <constraint firstItem="Jei-AN-lZj" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="5" id="V6O-Mf-G6U"/>
-                <constraint firstAttribute="bottom" secondItem="Jei-AN-lZj" secondAttribute="bottom" constant="5" id="gob-28-Elf"/>
+                <constraint firstItem="Jei-AN-lZj" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="V6O-Mf-G6U"/>
+                <constraint firstAttribute="bottom" secondItem="Jei-AN-lZj" secondAttribute="bottom" id="gob-28-Elf"/>
                 <constraint firstAttribute="trailing" secondItem="Jei-AN-lZj" secondAttribute="trailing" constant="10" id="zSh-Cm-M0L"/>
             </constraints>
             <size key="customSize" width="141" height="50"/>

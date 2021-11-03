@@ -9,6 +9,7 @@ import UIKit
 
 class RewardsLsitTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var heightConstrain: NSLayoutConstraint!
     @IBOutlet weak var viewContainer: UIView!
     @IBOutlet weak var collectionView: UICollectionView!
     @IBOutlet weak var lblReward: UILabel!
@@ -22,16 +23,25 @@ class RewardsLsitTableViewCell: UITableViewCell {
         collectionView.register(UINib(nibName: "NumberCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: "NumberCollectionViewCell")
         viewContainer.layer.cornerRadius = 15.0
         viewContainer.dropShadow()
+        heightConstrain.constant = 100.0
         self.selectionStyle = .none
         
        
     }
-    
+    override func layoutSubviews() {
+        collectionView.collectionViewLayout.invalidateLayout()
+
+    }
     func loadCellData(model:LatestDateResultList){
         lblName.text = model.name
         lblReward.text = "\(model.reward ?? 0) บาท"
-        let number = model.number as? [String]
-        self.rewardNumbers = number ?? []
+        var number:[String] = []
+        if  let value = model.number as? [String]{
+            number = value
+        }else if let value = model.number as? String{
+            number = [value]
+        }
+        self.rewardNumbers = number
         collectionView.reloadData()
     }
 
@@ -40,6 +50,9 @@ class RewardsLsitTableViewCell: UITableViewCell {
 }
 
 extension RewardsLsitTableViewCell:UICollectionViewDataSource,UICollectionViewDelegate,UICollectionViewDelegateFlowLayout{
+    func numberOfSections(in collectionView: UICollectionView) -> Int {
+        return 1
+    }
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         print("numbers\(rewardNumbers.count)")
         return rewardNumbers.count
@@ -59,7 +72,7 @@ extension RewardsLsitTableViewCell:UICollectionViewDataSource,UICollectionViewDe
             let lay = collectionViewLayout as! UICollectionViewFlowLayout
             let widthPerItem = collectionView.frame.width / 5 - lay.minimumInteritemSpacing
 
-        return CGSize(width: widthPerItem, height:20)
+        return CGSize(width: widthPerItem, height:50)
         
     }
     

@@ -147,6 +147,7 @@ class ViewController: UIViewController {
                   let status = json["code"] as? String
                   guard let userData = Mapper<LatestDateResponse>().map(JSON: json) else { return }
                   if (status == "200"){
+                      self.dataSource.removeAll()
                       self.createRows(list: userData.result ?? [])
                       self.tableView.reloadData()
                   

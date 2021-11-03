@@ -63,7 +63,7 @@
 		2977E6862731BD08000DF66F /* NumberCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberCollectionViewCell.swift; sourceTree = "<group>"; };
 		2977E6872731BD08000DF66F /* NumberCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NumberCollectionViewCell.xib; sourceTree = "<group>"; };
 		2977E68A2731C7EB000DF66F /* RowsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowsModel.swift; sourceTree = "<group>"; };
-		29A1FDD9272E73D400C24FD1 /* LOTTO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LOTTO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		29A1FDD9272E73D400C24FD1 /* Mawinbet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mawinbet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		29A1FDDC272E73D400C24FD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		29A1FDE0272E73D400C24FD1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		29A1FDE3272E73D400C24FD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -131,7 +131,7 @@
 		29A1FDDA272E73D400C24FD1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				29A1FDD9272E73D400C24FD1 /* LOTTO.app */,
+				29A1FDD9272E73D400C24FD1 /* Mawinbet.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -224,9 +224,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		29A1FDD8272E73D400C24FD1 /* LOTTO */ = {
+		29A1FDD8272E73D400C24FD1 /* Mawinbet */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 29A1FDED272E73D600C24FD1 /* Build configuration list for PBXNativeTarget "LOTTO" */;
+			buildConfigurationList = 29A1FDED272E73D600C24FD1 /* Build configuration list for PBXNativeTarget "Mawinbet" */;
 			buildPhases = (
 				4278D1407662123D032E6338 /* [CP] Check Pods Manifest.lock */,
 				29A1FDD5272E73D400C24FD1 /* Sources */,
@@ -238,9 +238,9 @@
 			);
 			dependencies = (
 			);
-			name = LOTTO;
+			name = Mawinbet;
 			productName = LOTTO;
-			productReference = 29A1FDD9272E73D400C24FD1 /* LOTTO.app */;
+			productReference = 29A1FDD9272E73D400C24FD1 /* Mawinbet.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -258,7 +258,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 29A1FDD4272E73D400C24FD1 /* Build configuration list for PBXProject "LOTTO" */;
+			buildConfigurationList = 29A1FDD4272E73D400C24FD1 /* Build configuration list for PBXProject "Mawinbet" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -271,7 +271,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				29A1FDD8272E73D400C24FD1 /* LOTTO */,
+				29A1FDD8272E73D400C24FD1 /* Mawinbet */,
 			);
 		};
 /* End PBXProject section */
@@ -520,11 +520,14 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LOTTO/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Mawinbet;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -548,11 +551,14 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LOTTO/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Mawinbet;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -569,7 +575,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		29A1FDD4272E73D400C24FD1 /* Build configuration list for PBXProject "LOTTO" */ = {
+		29A1FDD4272E73D400C24FD1 /* Build configuration list for PBXProject "Mawinbet" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				29A1FDEB272E73D600C24FD1 /* Debug */,
@@ -578,7 +584,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		29A1FDED272E73D600C24FD1 /* Build configuration list for PBXNativeTarget "LOTTO" */ = {
+		29A1FDED272E73D600C24FD1 /* Build configuration list for PBXNativeTarget "Mawinbet" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				29A1FDEE272E73D600C24FD1 /* Debug */,

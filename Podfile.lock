@@ -1,0 +1,25 @@
+PODS:
+  - Hakawai (7.4.7):
+    - Hakawai/Core (= 7.4.7)
+    - Hakawai/Mentions (= 7.4.7)
+  - Hakawai/Core (7.4.7)
+  - Hakawai/Mentions (7.4.7):
+    - Hakawai/Core
+  - SZMentionsSwift (2.1.3)
+
+DEPENDENCIES:
+  - Hakawai
+  - SZMentionsSwift
+
+SPEC REPOS:
+  trunk:
+    - Hakawai
+    - SZMentionsSwift
+
+SPEC CHECKSUMS:
+  Hakawai: d0c41d127db4eeffdaecaf529e72e6691abca8eb
+  SZMentionsSwift: 1d9d4bf8bfc234c8d8bd79f480947663a096200c
+
+PODFILE CHECKSUM: 809a25b883b25f72ddbe79d2656f304f08610223
+
+COCOAPODS: 1.11.2

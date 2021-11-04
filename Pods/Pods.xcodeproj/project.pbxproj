@@ -1,0 +1,1049 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A93176BA2DF80EA62643A5DD865ED13 /* HKWRoundedRectBackgroundAttributeValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 78392C04DE9A8040BD37C5538C2A7E50 /* HKWRoundedRectBackgroundAttributeValue.m */; };
+		0C4991775BBC4EB66BDD7796EB451C42 /* HKWLayoutManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A549FC076107151F6E460CAC13D659C4 /* HKWLayoutManager.m */; };
+		0FEF126FA719C7D2775B4FB2C263F691 /* _HKWDefaultChooserArrowView.h in Headers */ = {isa = PBXBuildFile; fileRef = EA2854FCF9BBB1DC371CC5F65FD41EB4 /* _HKWDefaultChooserArrowView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10B79E31DD0F7DBE1EF4DA22DC17E96D /* _HKWDefaultChooserView.h in Headers */ = {isa = PBXBuildFile; fileRef = 76E567009DD2CB45B136189BC91B63CB /* _HKWDefaultChooserView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		163CE7ACDCC53B5050EE3635518D4ED9 /* HKWTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A1F726E815F7A40B026B6F241E93CC /* HKWTextView.m */; };
+		17EF13F321698FF387093839F5BE9CDB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		18B26CB54193D3AF9E4DDCC688510E72 /* HKWMentionDataProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = C899E419E878A804D75ACA6978515300 /* HKWMentionDataProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B3AED2D2E6880A146879EF907F6ECF8 /* HKWExternalMentionConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 343873C85BEC36D9CE39C84F733878C2 /* HKWExternalMentionConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D64EB74EF9A622E21D1943F8E09AE59 /* HKWTextView+Plugins.h in Headers */ = {isa = PBXBuildFile; fileRef = 97EC443BAFB9A281AE499C42888C4C77 /* HKWTextView+Plugins.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F49C10B7E8501713F91EDE6B87B49FC /* HKWMentionsCustomChooserViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D326ED1E6E82D8A106D3B13FBDC0BEB /* HKWMentionsCustomChooserViewDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		259C17871F5598DBD15EE60E52D46E52 /* _HKWMentionsStartDetectionStateMachine.h in Headers */ = {isa = PBXBuildFile; fileRef = F8C02DBDAF59D4C64F553578F8CD7C76 /* _HKWMentionsStartDetectionStateMachine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27DCF9921674DB38E4298D45FD92D2E8 /* HKWTextView+TextTransformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 56C1B7D1CBA02ACC6A98EB8004F8279F /* HKWTextView+TextTransformation.m */; };
+		2D4FD178EEE240CC779EDAF58BFC307E /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9523307D98F0029ED66442F2A6D37E60 /* String.swift */; };
+		2FE03D3B8E9C95445C48501AD17386FA /* Attribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD15FDBC41E81513383A68E013CA6588 /* Attribute.swift */; };
+		300EDE7AB02E652D3063244F4053BCF9 /* Pods-mentionedUser-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B676BEE881B61C24A14866E442A5628 /* Pods-mentionedUser-dummy.m */; };
+		321E5906632FEE3E0125E55EB2680E67 /* MentionsManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA754815290AB1B6795BBDE945B6736 /* MentionsManagerDelegate.swift */; };
+		337CE7D3FE8A4CA989E119B6EFEF211A /* HKWCustomAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 806B6ABC537A33BCCC3C78FC9DA6207C /* HKWCustomAttributes.m */; };
+		3B435817B73E936AB4F4420E7CA64DC0 /* HKWExternalMentionConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ECD14665BE7AABF58495EA0D17E7896 /* HKWExternalMentionConstants.m */; };
+		3D6861C5941132EC5F29E41647F1A86F /* Pods-mentionedUser-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FC915BB562583A719AAC4C3F574C520E /* Pods-mentionedUser-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F9CB0D67AC1D29764529EE2FBEF0D36 /* MentionListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04916F5F737DEC23A8344A9184DEAEAA /* MentionListener.swift */; };
+		4056F882D8BD359DCBF84A3D71782E6A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		44C0C30CC806424053FF8DD1738DA734 /* HKWMentionsCreationStateMachine.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BA2292056D4DD074D178D572197A963 /* HKWMentionsCreationStateMachine.m */; };
+		4A338722B8843A2BA8CD27B9D6182E7B /* HKWAbstractionLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 87AAF4491A96B95F3E76D32AFCDB601B /* HKWAbstractionLayer.m */; };
+		51B7B9226B90986EE861732A7EAE8A18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		51F9C586535A386A1E84319FCFBCC085 /* HKWDefaultChooserArrowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A325E95FE48017050A8E3D385CA7AA /* HKWDefaultChooserArrowView.m */; };
+		5215997B5691AA6B58ABA615702A100A /* HKWTextView+Extras.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D3A3924815000181266DFD6983D671F /* HKWTextView+Extras.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		529830C0D2D4B926AF576F84CB4C5236 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2F7E7C30377B508D2B3BD255EFC171 /* Operators.swift */; };
+		5439ACB489330175A08F918AD6462857 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
+		55BE82BB69AB1586683726D1AEBB5D45 /* Mention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1322BEC616C2818EFB1D3214BD45394F /* Mention.swift */; };
+		6099169C39568011E1CB73AF26DED31C /* _HKWDefaultChooserBorderView.h in Headers */ = {isa = PBXBuildFile; fileRef = E467D98609AA8423272DE88338D61D7C /* _HKWDefaultChooserBorderView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6210B0DE743307850B04B4974EAD3BD2 /* _HKWMentionsCreationStateMachine.h in Headers */ = {isa = PBXBuildFile; fileRef = 2266EE9760ABA4CDACEA5EC8B1C0D6AD /* _HKWMentionsCreationStateMachine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C61A877CB2B01E13553C654AFDEBAF7 /* HKWMentionsPluginV2.h in Headers */ = {isa = PBXBuildFile; fileRef = 16DAFC14147CB25341FED7853DD6A0A6 /* HKWMentionsPluginV2.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6DE733E82733101B3EE000DEE18A5022 /* HKWTextView+TextTransformation.h in Headers */ = {isa = PBXBuildFile; fileRef = B3D533F76714A183EE5015C0246BC292 /* HKWTextView+TextTransformation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6DEE7BFB84F6D787D7A8ADCE44E3C5B3 /* HKWDefaultChooserView.m in Sources */ = {isa = PBXBuildFile; fileRef = D5497D98ED97424384F08F0864558D9B /* HKWDefaultChooserView.m */; };
+		6EB808A99AE3A518427B7A008CE07165 /* _HKWPrivateConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = ACFF0880AB9743D7BAE4F478BC0BDCDF /* _HKWPrivateConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7403587D13ABD7A5EC6724BEC61334B9 /* HKWDefaultChooserBorderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BD56744C2E5710971A1ACE60C97408F /* HKWDefaultChooserBorderView.m */; };
+		76F71F41440233E2B2C4E2F2F704AA74 /* SZMentionsSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D918AD19217E09A62E9952CD361BF73 /* SZMentionsSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7726EF4BF5D9F3BD16BDF5C99B8E9AC8 /* HKWTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 52DCFAFB404130B076E3779CDE463DBF /* HKWTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E0E8F8746295F292A14B8E11CECBAD4 /* Verifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D981DC25A89A0FF807643169CF3D5BF1 /* Verifier.swift */; };
+		7E99514E8ED0A842BA54BA8F27F300B0 /* HKWRoundedRectBackgroundAttributeValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 30108192DA9BCAAB72071F7E94B014C3 /* HKWRoundedRectBackgroundAttributeValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		822E30C6EB48619FA7CF92D3D165C013 /* HKWControlFlowPluginProtocols.h in Headers */ = {isa = PBXBuildFile; fileRef = B2DF2463A850B71D415C1612D19A82C7 /* HKWControlFlowPluginProtocols.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85B353E6FF2BF9207B0F7A888A19003F /* HKWMentionsAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = D160C985AEFCE66E307956DDB1B6ECC4 /* HKWMentionsAttribute.m */; };
+		8858E018D45923F668E31D5ECB790B1E /* HKWMentionsDefaultChooserViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = FE8FEFD3D7EB9D57FDB9541306EE9E17 /* HKWMentionsDefaultChooserViewDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89E42BF17194798E7E6E5969D98C406D /* HKWTextView+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = 0470D66667546CE962EC5EE7D4E442FD /* HKWTextView+Extras.m */; };
+		8BC92A75D56EE7B8959BBB17CF62CD84 /* HKWMentionsPluginV2.m in Sources */ = {isa = PBXBuildFile; fileRef = 491B88A54C239DCC97E24CB63947B6B2 /* HKWMentionsPluginV2.m */; };
+		91F78BB0416BCD4740D9E7B1B6D398B9 /* NSAttributedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF002DFF9634BEC185ADE7ECFDBF7B6E /* NSAttributedString.swift */; };
+		9F1D88B810F6A4BC4CB9A9365C6BB393 /* Hakawai-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AF537E91734E09F0473C9DA998822C5A /* Hakawai-dummy.m */; };
+		9F937865639300CE5B3964A6FB0E0514 /* HKWChooserViewProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 09D63CB878BAF4B9D140E38291675A59 /* HKWChooserViewProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A8F2F657C6D10C7BF326FB22B2ADE839 /* NSRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BAFF7D34AB53DBC574934FFBA8890F9 /* NSRange.swift */; };
+		AC5607D039FDAA66F5970F8965CB396C /* HKWMentionsPluginV1.m in Sources */ = {isa = PBXBuildFile; fileRef = A87F5E80D7CAAA15F83BB9888E773FE6 /* HKWMentionsPluginV1.m */; };
+		ACE5A44ACAA8A8AC68CD658223F55BEB /* HKWTextView+Plugins.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C82A53250635A661434EC5A67028846 /* HKWTextView+Plugins.m */; };
+		B08D61ABD607730800D24C31D2DDD6C6 /* HKWAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B1D40E3956BDDCE05AB400484AC8D39 /* HKWAttribute.m */; };
+		B9564522027DB7879763CC2186F71229 /* _HKWMentionsPrivateConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 99BFE8756965EF1AC8065C8DDC6F4A49 /* _HKWMentionsPrivateConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BFF570BBFF62D68B6FAD4DD01DB3C055 /* HKWMentionsCreationStateMachineDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C9DC7308A64206FDF6D09F02B81E9DB /* HKWMentionsCreationStateMachineDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C487D14C86E89D9F695A915A2656C2D3 /* _HKWLayoutManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 425EFC3D29CDCA57097E651FCE65FE7B /* _HKWLayoutManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C85E15232744CC1EC6D8AFC8BDD12FB2 /* HKWMentionDataProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A2DF9B9C7976CF096D5E1C7AFAF37E6 /* HKWMentionDataProvider.m */; };
+		C9199F5D095F4D99F41B5AF4655A857F /* HKWMentionsStartDetectionStateMachine.m in Sources */ = {isa = PBXBuildFile; fileRef = 8962C50AD874AA09EB988A7D96BFC045 /* HKWMentionsStartDetectionStateMachine.m */; };
+		CD8CA3A35BC6C91F0CEB510214EFB802 /* HKWMentionsPluginV1.h in Headers */ = {isa = PBXBuildFile; fileRef = 84DE9A9B6CA7C57F2FF9E2805EAF930F /* HKWMentionsPluginV1.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CEECAF30D843FC697D8AC5C13ABE6C45 /* HKWSimplePluginProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B972F8CB467C06F7F4F0B5E5F441C84 /* HKWSimplePluginProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D1814906CA6C7BE46C402488678156CB /* CreateMention.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57C1D38136A1A167FE4253ABA62CC68 /* CreateMention.swift */; };
+		D1E2E7EBAF96BFDD19BF2AFF404EF4A9 /* Hakawai-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DAE16277BD9CEF4B64B0C7F16468B866 /* Hakawai-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D66FB2F844F99B8644AB7FC498C63952 /* HKWAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CF7D2AC9A076F7EF34913542A03A59D /* HKWAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1461FD1276FC6C1242B8DDBBFC60439 /* HKWMentionsPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 042463A2539D030A96499A3D96A5FA29 /* HKWMentionsPlugin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E6DA0BE7EB3BCCADE8472F1E4A806FC3 /* AttributeContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC5E0B22E4150323AAFE4E46199FBB4 /* AttributeContainer.swift */; };
+		E8CC424ED015AE39133CF689FDFEBF5B /* MentionsArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864EF980DF3131CCE23D412B48A00D66 /* MentionsArray.swift */; };
+		E97596A325C5D34933BE2A420AE124F5 /* HKWMentionsAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = E99B5664EF33417C0977B87860B36292 /* HKWMentionsAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB7363D84CCA010F74E0A5B8228012E1 /* HKWAbstractionLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = BF6B670113B8836D0EBBD2FDCAB0E2E8 /* HKWAbstractionLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EDF71A0D5653BEFED96C2305122579A6 /* _HKWTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 118C3FEE0D3F04C88557B5E6595B42C1 /* _HKWTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EEF971005103F1C992F79FBBBBDC3B73 /* SZMentionsSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6372F5A4D1EF319D502DC78FF2192994 /* SZMentionsSwift-dummy.m */; };
+		F04295445FDECFDA8CDC726B33C7FEAD /* HKWMentionsEntityProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = F2FD3598EEDAE7FDF42AD4D91B9B855D /* HKWMentionsEntityProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F17AD9E5C32FE345233AF41BE29E850C /* HKWCustomAttributes.h in Headers */ = {isa = PBXBuildFile; fileRef = 91A22BDA3F639A4C2A1638AC5BF38173 /* HKWCustomAttributes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6252BC459B974934BAEEF6A9316DCA5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A704EC846C1622DD6A65C37AB77A4EA7;
+			remoteInfo = Hakawai;
+		};
+		E75EC262A002765A640BAA3C5A223121 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B3268C9366950DDBB3313F1FA07E7AD;
+			remoteInfo = SZMentionsSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		005B33FF0353017EC85B77A3BBC6A966 /* SZMentionsSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SZMentionsSwift.release.xcconfig; sourceTree = "<group>"; };
+		042463A2539D030A96499A3D96A5FA29 /* HKWMentionsPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HKWMentionsPlugin.h; path = Hakawai/Mentions/HKWMentionsPlugin.h; sourceTree = "<group>"; };
+		0470D66667546CE962EC5EE7D4E442FD /* HKWTextView+Extras.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "HKWTextView+Extras.m"; path = "Hakawai/Core/HKWTextView+Extras.m"; sourceTree = "<group>"; };
+		04916F5F737DEC23A8344A9184DEAEAA /* MentionListener.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MentionListener.swift; path = Classes/MentionListener.swift; sourceTree = "<group>"; };
+		09D63CB878BAF4B9D140E38291675A59 /* HKWChooserViewProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HKWChooserViewProtocol.h; path = Hakawai/Core/HKWChooserViewProtocol.h; sourceTree = "<group>"; };
+		0D326ED1E6E82D8A106D3B13FBDC0BEB /* HKWMentionsCustomChooserViewDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HKWMentionsCustomChooserViewDelegate.h; path = Hakawai/Mentions/HKWMentionsCustomChooserViewDelegate.h; sourceTree = "<group>"; };
+		0D3A3924815000181266DFD6983D671F /* HKWTextView+Extras.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "HKWTextView+Extras.h"; path = "Hakawai/Core/HKWTextView+Extras.h"; sourceTree = "<group>"; };
+		0EC58168FAA0C85C972D12B7F2F93AA0 /* SZMentionsSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SZMentionsSwift-prefix.pch"; sourceTree = "<group>"; };
+		118C3FEE0D3F04C88557B5E6595B42C1 /* _HKWTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = _HKWTextView.h; path = Hakawai/Core/_HKWTextView.h; sourceTree = "<group>"; };
+		1322BEC616C2818EFB1D3214BD45394F /* Mention.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Mention.swift; path = Classes/Mention.swift; sourceTree = "<group>"; };
+		16DAFC14147CB25341FED7853DD6A0A6 /* HKWMentionsPluginV2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HKWMentionsPluginV2.h; path = Hakawai/Mentions/HKWMentionsPluginV2.h; sourceTree = "<group>"; };
+		1A2DF9B9C7976CF096D5E1C7AFAF37E6 /* HKWMentionDataProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HKWMentionDataProvider.m; path = Hakawai/Mentions/HKWMentionDataProvider.m; sourceTree = "<group>"; };
+		1BA2292056D4DD074D178D572197A963 /* HKWMentionsCreationStateMachine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HKWMentionsCreationStateMachine.m; path = Hakawai/Mentions/HKWMentionsCreationStateMachine.m; sourceTree = "<group>"; };
+		1CF7D2AC9A076F7EF34913542A03A59D /* HKWAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HKWAttribute.h; path = Hakawai/Core/HKWAttribute.h; sourceTree = "<group>"; };
+		1ECD14665BE7AABF58495EA0D17E7896 /* HKWExternalMentionConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HKWExternalMentionConstants.m; path = Hakawai/Mentions/HKWExternalMentionConstants.m; sourceTree = "<group>"; };
+		2266EE9760ABA4CDACEA5EC8B1C0D6AD /* _HKWMentionsCreationStateMachine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = _HKWMentionsCreationStateMachine.h; path = Hakawai/Mentions/_HKWMentionsCreationStateMachine.h; sourceTree = "<group>"; };
+		24453925EA8E52F0CE8B1CC2D6794329 /* Pods-mentionedUser-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-mentionedUser-Info.plist"; sourceTree = "<group>"; };
+		2B972F8CB467C06F7F4F0B5E5F441C84 /* HKWSimplePluginProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HKWSimplePluginProtocol.h; path = Hakawai/Core/HKWSimplePluginProtocol.h; sourceTree = "<group>"; };
+		2BC5E0B22E4150323AAFE4E46199FBB4 /* AttributeContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AttributeContainer.swift; path = Classes/AttributeContainer.swift; sourceTree = "<group>"; };
+		2F13C0B6F911AB7B1113648D008B9AE5 /* Pods-mentionedUser-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-mentionedUser-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2F3B65B1FD377D6DEA6128E50066C6AD /* Pods-mentionedUser-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-mentionedUser-acknowledgements.plist"; sourceTree = "<group>"; };
+		30108192DA9BCAAB72071F7E94B014C3 /* HKWRoundedRectBackgroundAttributeValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HKWRoundedRectBackgroundAttributeValue.h; path = Hakawai/Core/TextKit/HKWRoundedRectBackgroundAttributeValue.h; sourceTree = "<group>"; };
+		343873C85BEC36D9CE39C84F733878C2 /* HKWExternalMentionConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HKWExternalMentionConstants.h; path = Hakawai/Mentions/HKWExternalMentionConstants.h; sourceTree = "<group>"; };
+		3E639E85AA0329EDA771769474CB36A5 /* Hakawai.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Hakawai.modulemap; sourceTree = "<group>"; };
+		425EFC3D29CDCA57097E651FCE65FE7B /* _HKWLayoutManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = _HKWLayoutManager.h; path = Hakawai/Core/TextKit/_HKWLayoutManager.h; sourceTree = "<group>"; };
+		491B88A54C239DCC97E24CB63947B6B2 /* HKWMentionsPluginV2.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HKWMentionsPluginV2.m; path = Hakawai/Mentions/HKWMentionsPluginV2.m; sourceTree = "<group>"; };
+		4B500D6DAB66215C6268DBEE7F5F22EA /* Hakawai-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Hakawai-Info.plist"; sourceTree = "<group>"; };
+		4C82A53250635A661434EC5A67028846 /* HKWTextView+Plugins.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "HKWTextView+Plugins.m"; path = "Hakawai/Core/HKWTextView+Plugins.m"; sourceTree = "<group>"; };
+		52DCFAFB404130B076E3779CDE463DBF /* HKWTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HKWTextView.h; path = Hakawai/Core/HKWTextView.h; sourceTree = "<group>"; };
+		56C1B7D1CBA02ACC6A98EB8004F8279F /* HKWTextView+TextTransformation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "HKWTextView+TextTransformation.m"; path = "Hakawai/Core/HKWTextView+TextTransformation.m"; sourceTree = "<group>"; };
+		5B676BEE881B61C24A14866E442A5628 /* Pods-mentionedUser-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-mentionedUser-dummy.m"; sourceTree = "<group>"; };
+		5D918AD19217E09A62E9952CD361BF73 /* SZMentionsSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SZMentionsSwift-umbrella.h"; sourceTree = "<group>"; };
+		62DBC8E3F0313F9A6BEA4A8F72226050 /* SZMentionsSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SZMentionsSwift.debug.xcconfig; sourceTree = "<group>"; };
+		6372F5A4D1EF319D502DC78FF2192994 /* SZMentionsSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SZMentionsSwift-dummy.m"; sourceTree = "<group>"; };
+		68E411D1DEB622D8C05A8140B8539592 /* SZMentionsSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SZMentionsSwift-Info.plist"; sourceTree = "<group>"; };
+		6C9DC7308A64206FDF6D09F02B81E9DB /* HKWMentionsCreationStateMachineDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HKWMentionsCreationStateMachineDelegate.h; path = Hakawai/Mentions/HKWMentionsCreationStateMachineDelegate.h; sourceTree = "<group>"; };
+		6D5E535C9B37D3F7FD267E1BF2701F0A /* Pods-mentionedUser-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-mentionedUser-frameworks.sh"; sourceTree = "<group>"; };
+		73713672C0C72AF98F76409DCDC118C3 /* Pods-mentionedUser.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-mentionedUser.modulemap"; sourceTree = "<group>"; };
+		76E567009DD2CB45B136189BC91B63CB /* _HKWDefaultChooserView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = _HKWDefaultChooserView.h; path = Hakawai/Core/Default/_HKWDefaultChooserView.h; sourceTree = "<group>"; };
+		78392C04DE9A8040BD37C5538C2A7E50 /* HKWRoundedRectBackgroundAttributeValue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HKWRoundedRectBackgroundAttributeValue.m; path = Hakawai/Core/TextKit/HKWRoundedRectBackgroundAttributeValue.m; sourceTree = "<group>"; };
+		7BD56744C2E5710971A1ACE60C97408F /* HKWDefaultChooserBorderView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HKWDefaultChooserBorderView.m; path = Hakawai/Core/Default/HKWDefaultChooserBorderView.m; sourceTree = "<group>"; };
+		806B6ABC537A33BCCC3C78FC9DA6207C /* HKWCustomAttributes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HKWCustomAttributes.m; path = Hakawai/Core/TextKit/HKWCustomAttributes.m; sourceTree = "<group>"; };
+		84DE9A9B6CA7C57F2FF9E2805EAF930F /* HKWMentionsPluginV1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HKWMentionsPluginV1.h; path = Hakawai/Mentions/HKWMentionsPluginV1.h; sourceTree = "<group>"; };
+		864EF980DF3131CCE23D412B48A00D66 /* MentionsArray.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MentionsArray.swift; path = Classes/Internal/MentionsArray.swift; sourceTree = "<group>"; };
+		87AAF4491A96B95F3E76D32AFCDB601B /* HKWAbstractionLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HKWAbstractionLayer.m; path = Hakawai/Core/AbstractionLayer/HKWAbstractionLayer.m; sourceTree = "<group>"; };
+		8962C50AD874AA09EB988A7D96BFC045 /* HKWMentionsStartDetectionStateMachine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HKWMentionsStartDetectionStateMachine.m; path = Hakawai/Mentions/HKWMentionsStartDetectionStateMachine.m; sourceTree = "<group>"; };
+		89A325E95FE48017050A8E3D385CA7AA /* HKWDefaultChooserArrowView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HKWDefaultChooserArrowView.m; path = Hakawai/Core/Default/HKWDefaultChooserArrowView.m; sourceTree = "<group>"; };
+		8BA2CE0DADB8864CBA2C976AC9B63636 /* Hakawai.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Hakawai.release.xcconfig; sourceTree = "<group>"; };
+		8BAFF7D34AB53DBC574934FFBA8890F9 /* NSRange.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSRange.swift; path = Classes/Internal/NSRange.swift; sourceTree = "<group>"; };
+		8CF23F6A388ABEEEE979C5EEC2EBE857 /* Hakawai */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Hakawai; path = Hakawai.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		91A22BDA3F639A4C2A1638AC5BF38173 /* HKWCustomAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HKWCustomAttributes.h; path = Hakawai/Core/TextKit/HKWCustomAttributes.h; sourceTree = "<group>"; };
+		9523307D98F0029ED66442F2A6D37E60 /* String.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = String.swift; path = Classes/Internal/String.swift; sourceTree = "<group>"; };
+		968CE677602108996C737DA30ABE68B6 /* Hakawai-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Hakawai-prefix.pch"; sourceTree = "<group>"; };
+		97EC443BAFB9A281AE499C42888C4C77 /* HKWTextView+Plugins.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "HKWTextView+Plugins.h"; path = "Hakawai/Core/HKWTextView+Plugins.h"; sourceTree = "<group>"; };
+		99BFE8756965EF1AC8065C8DDC6F4A49 /* _HKWMentionsPrivateConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = _HKWMentionsPrivateConstants.h; path = Hakawai/Mentions/_HKWMentionsPrivateConstants.h; sourceTree = "<group>"; };
+		9B1D40E3956BDDCE05AB400484AC8D39 /* HKWAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HKWAttribute.m; path = Hakawai/Core/HKWAttribute.m; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A549FC076107151F6E460CAC13D659C4 /* HKWLayoutManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HKWLayoutManager.m; path = Hakawai/Core/TextKit/HKWLayoutManager.m; sourceTree = "<group>"; };
+		A713D5E8356045BB5F5C26A812F307F1 /* Pods-mentionedUser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-mentionedUser.release.xcconfig"; sourceTree = "<group>"; };
+		A87F5E80D7CAAA15F83BB9888E773FE6 /* HKWMentionsPluginV1.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HKWMentionsPluginV1.m; path = Hakawai/Mentions/HKWMentionsPluginV1.m; sourceTree = "<group>"; };
+		ACFF0880AB9743D7BAE4F478BC0BDCDF /* _HKWPrivateConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = _HKWPrivateConstants.h; path = Hakawai/Core/_HKWPrivateConstants.h; sourceTree = "<group>"; };
+		AF537E91734E09F0473C9DA998822C5A /* Hakawai-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Hakawai-dummy.m"; sourceTree = "<group>"; };
+		B2DF2463A850B71D415C1612D19A82C7 /* HKWControlFlowPluginProtocols.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HKWControlFlowPluginProtocols.h; path = Hakawai/Core/HKWControlFlowPluginProtocols.h; sourceTree = "<group>"; };
+		B3D533F76714A183EE5015C0246BC292 /* HKWTextView+TextTransformation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "HKWTextView+TextTransformation.h"; path = "Hakawai/Core/HKWTextView+TextTransformation.h"; sourceTree = "<group>"; };
+		BA39EE8D2DB07EBD3F88320F4878AA5C /* SZMentionsSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SZMentionsSwift.modulemap; sourceTree = "<group>"; };
+		BF6B670113B8836D0EBBD2FDCAB0E2E8 /* HKWAbstractionLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HKWAbstractionLayer.h; path = Hakawai/Core/AbstractionLayer/HKWAbstractionLayer.h; sourceTree = "<group>"; };
+		C5A22A696A00CAD2D3E9C92F126C6BBC /* Hakawai.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Hakawai.debug.xcconfig; sourceTree = "<group>"; };
+		C899E419E878A804D75ACA6978515300 /* HKWMentionDataProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HKWMentionDataProvider.h; path = Hakawai/Mentions/HKWMentionDataProvider.h; sourceTree = "<group>"; };
+		D160C985AEFCE66E307956DDB1B6ECC4 /* HKWMentionsAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HKWMentionsAttribute.m; path = Hakawai/Mentions/HKWMentionsAttribute.m; sourceTree = "<group>"; };
+		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		D5497D98ED97424384F08F0864558D9B /* HKWDefaultChooserView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HKWDefaultChooserView.m; path = Hakawai/Core/Default/HKWDefaultChooserView.m; sourceTree = "<group>"; };
+		D981DC25A89A0FF807643169CF3D5BF1 /* Verifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Verifier.swift; path = Classes/Internal/Verifier.swift; sourceTree = "<group>"; };
+		DAE16277BD9CEF4B64B0C7F16468B866 /* Hakawai-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Hakawai-umbrella.h"; sourceTree = "<group>"; };
+		DF002DFF9634BEC185ADE7ECFDBF7B6E /* NSAttributedString.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSAttributedString.swift; path = Classes/Internal/NSAttributedString.swift; sourceTree = "<group>"; };
+		E2B9F143346B5BD0CFA72AD640F9FBBB /* Pods-mentionedUser */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-mentionedUser"; path = Pods_mentionedUser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E467D98609AA8423272DE88338D61D7C /* _HKWDefaultChooserBorderView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = _HKWDefaultChooserBorderView.h; path = Hakawai/Core/Default/_HKWDefaultChooserBorderView.h; sourceTree = "<group>"; };
+		E99B5664EF33417C0977B87860B36292 /* HKWMentionsAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HKWMentionsAttribute.h; path = Hakawai/Mentions/HKWMentionsAttribute.h; sourceTree = "<group>"; };
+		EA2854FCF9BBB1DC371CC5F65FD41EB4 /* _HKWDefaultChooserArrowView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = _HKWDefaultChooserArrowView.h; path = Hakawai/Core/Default/_HKWDefaultChooserArrowView.h; sourceTree = "<group>"; };
+		EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F2FD3598EEDAE7FDF42AD4D91B9B855D /* HKWMentionsEntityProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HKWMentionsEntityProtocol.h; path = Hakawai/Mentions/HKWMentionsEntityProtocol.h; sourceTree = "<group>"; };
+		F4648790080AA4EC20788A1B36349268 /* SZMentionsSwift */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SZMentionsSwift; path = SZMentionsSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F57C1D38136A1A167FE4253ABA62CC68 /* CreateMention.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CreateMention.swift; path = Classes/CreateMention.swift; sourceTree = "<group>"; };
+		F6A1F726E815F7A40B026B6F241E93CC /* HKWTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HKWTextView.m; path = Hakawai/Core/HKWTextView.m; sourceTree = "<group>"; };
+		F8C02DBDAF59D4C64F553578F8CD7C76 /* _HKWMentionsStartDetectionStateMachine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = _HKWMentionsStartDetectionStateMachine.h; path = Hakawai/Mentions/_HKWMentionsStartDetectionStateMachine.h; sourceTree = "<group>"; };
+		F8C7A583BEEB2DB69270FAE9C63447F4 /* Pods-mentionedUser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-mentionedUser.debug.xcconfig"; sourceTree = "<group>"; };
+		FB2F7E7C30377B508D2B3BD255EFC171 /* Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Operators.swift; path = Classes/Internal/Operators.swift; sourceTree = "<group>"; };
+		FC915BB562583A719AAC4C3F574C520E /* Pods-mentionedUser-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-mentionedUser-umbrella.h"; sourceTree = "<group>"; };
+		FD15FDBC41E81513383A68E013CA6588 /* Attribute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Attribute.swift; path = Classes/Internal/Attribute.swift; sourceTree = "<group>"; };
+		FE8FEFD3D7EB9D57FDB9541306EE9E17 /* HKWMentionsDefaultChooserViewDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HKWMentionsDefaultChooserViewDelegate.h; path = Hakawai/Mentions/HKWMentionsDefaultChooserViewDelegate.h; sourceTree = "<group>"; };
+		FFA754815290AB1B6795BBDE945B6736 /* MentionsManagerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MentionsManagerDelegate.swift; path = Classes/MentionsManagerDelegate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5266C9B9101CCDA18E628CC233E13220 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51B7B9226B90986EE861732A7EAE8A18 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7305C762B4DBA7777E373EE74CACF862 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4056F882D8BD359DCBF84A3D71782E6A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A204208E096BCC56C0AAEF387917CB4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17EF13F321698FF387093839F5BE9CDB /* Foundation.framework in Frameworks */,
+				5439ACB489330175A08F918AD6462857 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		53C0A56BB17A4D1CD7B7C734D7F8172F /* Mentions */ = {
+			isa = PBXGroup;
+			children = (
+				2266EE9760ABA4CDACEA5EC8B1C0D6AD /* _HKWMentionsCreationStateMachine.h */,
+				99BFE8756965EF1AC8065C8DDC6F4A49 /* _HKWMentionsPrivateConstants.h */,
+				F8C02DBDAF59D4C64F553578F8CD7C76 /* _HKWMentionsStartDetectionStateMachine.h */,
+				343873C85BEC36D9CE39C84F733878C2 /* HKWExternalMentionConstants.h */,
+				1ECD14665BE7AABF58495EA0D17E7896 /* HKWExternalMentionConstants.m */,
+				C899E419E878A804D75ACA6978515300 /* HKWMentionDataProvider.h */,
+				1A2DF9B9C7976CF096D5E1C7AFAF37E6 /* HKWMentionDataProvider.m */,
+				E99B5664EF33417C0977B87860B36292 /* HKWMentionsAttribute.h */,
+				D160C985AEFCE66E307956DDB1B6ECC4 /* HKWMentionsAttribute.m */,
+				1BA2292056D4DD074D178D572197A963 /* HKWMentionsCreationStateMachine.m */,
+				6C9DC7308A64206FDF6D09F02B81E9DB /* HKWMentionsCreationStateMachineDelegate.h */,
+				0D326ED1E6E82D8A106D3B13FBDC0BEB /* HKWMentionsCustomChooserViewDelegate.h */,
+				FE8FEFD3D7EB9D57FDB9541306EE9E17 /* HKWMentionsDefaultChooserViewDelegate.h */,
+				F2FD3598EEDAE7FDF42AD4D91B9B855D /* HKWMentionsEntityProtocol.h */,
+				042463A2539D030A96499A3D96A5FA29 /* HKWMentionsPlugin.h */,
+				84DE9A9B6CA7C57F2FF9E2805EAF930F /* HKWMentionsPluginV1.h */,
+				A87F5E80D7CAAA15F83BB9888E773FE6 /* HKWMentionsPluginV1.m */,
+				16DAFC14147CB25341FED7853DD6A0A6 /* HKWMentionsPluginV2.h */,
+				491B88A54C239DCC97E24CB63947B6B2 /* HKWMentionsPluginV2.m */,
+				8962C50AD874AA09EB988A7D96BFC045 /* HKWMentionsStartDetectionStateMachine.m */,
+			);
+			name = Mentions;
+			sourceTree = "<group>";
+		};
+		59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */,
+				D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7E40BAD484FA26EA9A6D9B80AB424459 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D1F2DE3C172A6CC2CF146C01A8350C75 /* Pods-mentionedUser */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		805DEC4391B6762E845AD4C87CDB4414 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8CF23F6A388ABEEEE979C5EEC2EBE857 /* Hakawai */,
+				E2B9F143346B5BD0CFA72AD640F9FBBB /* Pods-mentionedUser */,
+				F4648790080AA4EC20788A1B36349268 /* SZMentionsSwift */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8FF43AEA4C6D13E4D759AB7BB42897AD /* Hakawai */ = {
+			isa = PBXGroup;
+			children = (
+				C60729EF43A7C65432A3ADAF1217B803 /* Core */,
+				53C0A56BB17A4D1CD7B7C734D7F8172F /* Mentions */,
+				FCCDB568062085CA22AFFF64D1D2ED9B /* Support Files */,
+			);
+			name = Hakawai;
+			path = Hakawai;
+			sourceTree = "<group>";
+		};
+		C60729EF43A7C65432A3ADAF1217B803 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				EA2854FCF9BBB1DC371CC5F65FD41EB4 /* _HKWDefaultChooserArrowView.h */,
+				E467D98609AA8423272DE88338D61D7C /* _HKWDefaultChooserBorderView.h */,
+				76E567009DD2CB45B136189BC91B63CB /* _HKWDefaultChooserView.h */,
+				425EFC3D29CDCA57097E651FCE65FE7B /* _HKWLayoutManager.h */,
+				ACFF0880AB9743D7BAE4F478BC0BDCDF /* _HKWPrivateConstants.h */,
+				118C3FEE0D3F04C88557B5E6595B42C1 /* _HKWTextView.h */,
+				BF6B670113B8836D0EBBD2FDCAB0E2E8 /* HKWAbstractionLayer.h */,
+				87AAF4491A96B95F3E76D32AFCDB601B /* HKWAbstractionLayer.m */,
+				1CF7D2AC9A076F7EF34913542A03A59D /* HKWAttribute.h */,
+				9B1D40E3956BDDCE05AB400484AC8D39 /* HKWAttribute.m */,
+				09D63CB878BAF4B9D140E38291675A59 /* HKWChooserViewProtocol.h */,
+				B2DF2463A850B71D415C1612D19A82C7 /* HKWControlFlowPluginProtocols.h */,
+				91A22BDA3F639A4C2A1638AC5BF38173 /* HKWCustomAttributes.h */,
+				806B6ABC537A33BCCC3C78FC9DA6207C /* HKWCustomAttributes.m */,
+				89A325E95FE48017050A8E3D385CA7AA /* HKWDefaultChooserArrowView.m */,
+				7BD56744C2E5710971A1ACE60C97408F /* HKWDefaultChooserBorderView.m */,
+				D5497D98ED97424384F08F0864558D9B /* HKWDefaultChooserView.m */,
+				A549FC076107151F6E460CAC13D659C4 /* HKWLayoutManager.m */,
+				30108192DA9BCAAB72071F7E94B014C3 /* HKWRoundedRectBackgroundAttributeValue.h */,
+				78392C04DE9A8040BD37C5538C2A7E50 /* HKWRoundedRectBackgroundAttributeValue.m */,
+				2B972F8CB467C06F7F4F0B5E5F441C84 /* HKWSimplePluginProtocol.h */,
+				52DCFAFB404130B076E3779CDE463DBF /* HKWTextView.h */,
+				F6A1F726E815F7A40B026B6F241E93CC /* HKWTextView.m */,
+				0D3A3924815000181266DFD6983D671F /* HKWTextView+Extras.h */,
+				0470D66667546CE962EC5EE7D4E442FD /* HKWTextView+Extras.m */,
+				97EC443BAFB9A281AE499C42888C4C77 /* HKWTextView+Plugins.h */,
+				4C82A53250635A661434EC5A67028846 /* HKWTextView+Plugins.m */,
+				B3D533F76714A183EE5015C0246BC292 /* HKWTextView+TextTransformation.h */,
+				56C1B7D1CBA02ACC6A98EB8004F8279F /* HKWTextView+TextTransformation.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				DCDB5035069763DC7563541B9B2E8FAB /* Pods */,
+				805DEC4391B6762E845AD4C87CDB4414 /* Products */,
+				7E40BAD484FA26EA9A6D9B80AB424459 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D1D91F45464A2B76D333FE6349E868BE /* SZMentionsSwift */ = {
+			isa = PBXGroup;
+			children = (
+				FD15FDBC41E81513383A68E013CA6588 /* Attribute.swift */,
+				2BC5E0B22E4150323AAFE4E46199FBB4 /* AttributeContainer.swift */,
+				F57C1D38136A1A167FE4253ABA62CC68 /* CreateMention.swift */,
+				1322BEC616C2818EFB1D3214BD45394F /* Mention.swift */,
+				04916F5F737DEC23A8344A9184DEAEAA /* MentionListener.swift */,
+				864EF980DF3131CCE23D412B48A00D66 /* MentionsArray.swift */,
+				FFA754815290AB1B6795BBDE945B6736 /* MentionsManagerDelegate.swift */,
+				DF002DFF9634BEC185ADE7ECFDBF7B6E /* NSAttributedString.swift */,
+				8BAFF7D34AB53DBC574934FFBA8890F9 /* NSRange.swift */,
+				FB2F7E7C30377B508D2B3BD255EFC171 /* Operators.swift */,
+				9523307D98F0029ED66442F2A6D37E60 /* String.swift */,
+				D981DC25A89A0FF807643169CF3D5BF1 /* Verifier.swift */,
+				D6ECD160997089048B50732806757098 /* Support Files */,
+			);
+			name = SZMentionsSwift;
+			path = SZMentionsSwift;
+			sourceTree = "<group>";
+		};
+		D1F2DE3C172A6CC2CF146C01A8350C75 /* Pods-mentionedUser */ = {
+			isa = PBXGroup;
+			children = (
+				73713672C0C72AF98F76409DCDC118C3 /* Pods-mentionedUser.modulemap */,
+				2F13C0B6F911AB7B1113648D008B9AE5 /* Pods-mentionedUser-acknowledgements.markdown */,
+				2F3B65B1FD377D6DEA6128E50066C6AD /* Pods-mentionedUser-acknowledgements.plist */,
+				5B676BEE881B61C24A14866E442A5628 /* Pods-mentionedUser-dummy.m */,
+				6D5E535C9B37D3F7FD267E1BF2701F0A /* Pods-mentionedUser-frameworks.sh */,
+				24453925EA8E52F0CE8B1CC2D6794329 /* Pods-mentionedUser-Info.plist */,
+				FC915BB562583A719AAC4C3F574C520E /* Pods-mentionedUser-umbrella.h */,
+				F8C7A583BEEB2DB69270FAE9C63447F4 /* Pods-mentionedUser.debug.xcconfig */,
+				A713D5E8356045BB5F5C26A812F307F1 /* Pods-mentionedUser.release.xcconfig */,
+			);
+			name = "Pods-mentionedUser";
+			path = "Target Support Files/Pods-mentionedUser";
+			sourceTree = "<group>";
+		};
+		D6ECD160997089048B50732806757098 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BA39EE8D2DB07EBD3F88320F4878AA5C /* SZMentionsSwift.modulemap */,
+				6372F5A4D1EF319D502DC78FF2192994 /* SZMentionsSwift-dummy.m */,
+				68E411D1DEB622D8C05A8140B8539592 /* SZMentionsSwift-Info.plist */,
+				0EC58168FAA0C85C972D12B7F2F93AA0 /* SZMentionsSwift-prefix.pch */,
+				5D918AD19217E09A62E9952CD361BF73 /* SZMentionsSwift-umbrella.h */,
+				62DBC8E3F0313F9A6BEA4A8F72226050 /* SZMentionsSwift.debug.xcconfig */,
+				005B33FF0353017EC85B77A3BBC6A966 /* SZMentionsSwift.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SZMentionsSwift";
+			sourceTree = "<group>";
+		};
+		DCDB5035069763DC7563541B9B2E8FAB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8FF43AEA4C6D13E4D759AB7BB42897AD /* Hakawai */,
+				D1D91F45464A2B76D333FE6349E868BE /* SZMentionsSwift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FCCDB568062085CA22AFFF64D1D2ED9B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E639E85AA0329EDA771769474CB36A5 /* Hakawai.modulemap */,
+				AF537E91734E09F0473C9DA998822C5A /* Hakawai-dummy.m */,
+				4B500D6DAB66215C6268DBEE7F5F22EA /* Hakawai-Info.plist */,
+				968CE677602108996C737DA30ABE68B6 /* Hakawai-prefix.pch */,
+				DAE16277BD9CEF4B64B0C7F16468B866 /* Hakawai-umbrella.h */,
+				C5A22A696A00CAD2D3E9C92F126C6BBC /* Hakawai.debug.xcconfig */,
+				8BA2CE0DADB8864CBA2C976AC9B63636 /* Hakawai.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Hakawai";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9E48FD01A7C55FED22208020642BEEB0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76F71F41440233E2B2C4E2F2F704AA74 /* SZMentionsSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A97EDCD1B518448D80D73A555325461E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D6861C5941132EC5F29E41647F1A86F /* Pods-mentionedUser-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCB28E93503458348CA299F76F1380AB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FEF126FA719C7D2775B4FB2C263F691 /* _HKWDefaultChooserArrowView.h in Headers */,
+				6099169C39568011E1CB73AF26DED31C /* _HKWDefaultChooserBorderView.h in Headers */,
+				10B79E31DD0F7DBE1EF4DA22DC17E96D /* _HKWDefaultChooserView.h in Headers */,
+				C487D14C86E89D9F695A915A2656C2D3 /* _HKWLayoutManager.h in Headers */,
+				6210B0DE743307850B04B4974EAD3BD2 /* _HKWMentionsCreationStateMachine.h in Headers */,
+				B9564522027DB7879763CC2186F71229 /* _HKWMentionsPrivateConstants.h in Headers */,
+				259C17871F5598DBD15EE60E52D46E52 /* _HKWMentionsStartDetectionStateMachine.h in Headers */,
+				6EB808A99AE3A518427B7A008CE07165 /* _HKWPrivateConstants.h in Headers */,
+				EDF71A0D5653BEFED96C2305122579A6 /* _HKWTextView.h in Headers */,
+				D1E2E7EBAF96BFDD19BF2AFF404EF4A9 /* Hakawai-umbrella.h in Headers */,
+				EB7363D84CCA010F74E0A5B8228012E1 /* HKWAbstractionLayer.h in Headers */,
+				D66FB2F844F99B8644AB7FC498C63952 /* HKWAttribute.h in Headers */,
+				9F937865639300CE5B3964A6FB0E0514 /* HKWChooserViewProtocol.h in Headers */,
+				822E30C6EB48619FA7CF92D3D165C013 /* HKWControlFlowPluginProtocols.h in Headers */,
+				F17AD9E5C32FE345233AF41BE29E850C /* HKWCustomAttributes.h in Headers */,
+				1B3AED2D2E6880A146879EF907F6ECF8 /* HKWExternalMentionConstants.h in Headers */,
+				18B26CB54193D3AF9E4DDCC688510E72 /* HKWMentionDataProvider.h in Headers */,
+				E97596A325C5D34933BE2A420AE124F5 /* HKWMentionsAttribute.h in Headers */,
+				BFF570BBFF62D68B6FAD4DD01DB3C055 /* HKWMentionsCreationStateMachineDelegate.h in Headers */,
+				1F49C10B7E8501713F91EDE6B87B49FC /* HKWMentionsCustomChooserViewDelegate.h in Headers */,
+				8858E018D45923F668E31D5ECB790B1E /* HKWMentionsDefaultChooserViewDelegate.h in Headers */,
+				F04295445FDECFDA8CDC726B33C7FEAD /* HKWMentionsEntityProtocol.h in Headers */,
+				E1461FD1276FC6C1242B8DDBBFC60439 /* HKWMentionsPlugin.h in Headers */,
+				CD8CA3A35BC6C91F0CEB510214EFB802 /* HKWMentionsPluginV1.h in Headers */,
+				6C61A877CB2B01E13553C654AFDEBAF7 /* HKWMentionsPluginV2.h in Headers */,
+				7E99514E8ED0A842BA54BA8F27F300B0 /* HKWRoundedRectBackgroundAttributeValue.h in Headers */,
+				CEECAF30D843FC697D8AC5C13ABE6C45 /* HKWSimplePluginProtocol.h in Headers */,
+				7726EF4BF5D9F3BD16BDF5C99B8E9AC8 /* HKWTextView.h in Headers */,
+				5215997B5691AA6B58ABA615702A100A /* HKWTextView+Extras.h in Headers */,
+				1D64EB74EF9A622E21D1943F8E09AE59 /* HKWTextView+Plugins.h in Headers */,
+				6DE733E82733101B3EE000DEE18A5022 /* HKWTextView+TextTransformation.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7B3268C9366950DDBB3313F1FA07E7AD /* SZMentionsSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D19944EF54B1CB537C5DD544073AFE0B /* Build configuration list for PBXNativeTarget "SZMentionsSwift" */;
+			buildPhases = (
+				9E48FD01A7C55FED22208020642BEEB0 /* Headers */,
+				2B0B9DF25CFD0FDC2A9545773C642F92 /* Sources */,
+				7305C762B4DBA7777E373EE74CACF862 /* Frameworks */,
+				A82BFDD93C1A47AA5532F1E848574CCE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SZMentionsSwift;
+			productName = SZMentionsSwift;
+			productReference = F4648790080AA4EC20788A1B36349268 /* SZMentionsSwift */;
+			productType = "com.apple.product-type.framework";
+		};
+		A704EC846C1622DD6A65C37AB77A4EA7 /* Hakawai */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BA555965F4AD830EDC50698CFAD3F87 /* Build configuration list for PBXNativeTarget "Hakawai" */;
+			buildPhases = (
+				BCB28E93503458348CA299F76F1380AB /* Headers */,
+				BEE2657BB2C694168C912CD53915118F /* Sources */,
+				A204208E096BCC56C0AAEF387917CB4D /* Frameworks */,
+				A7450D31B212B24AD713273C5CE79286 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hakawai;
+			productName = Hakawai;
+			productReference = 8CF23F6A388ABEEEE979C5EEC2EBE857 /* Hakawai */;
+			productType = "com.apple.product-type.framework";
+		};
+		B38A898C953409AD8A473D222385CAF9 /* Pods-mentionedUser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F242815FEE185F3E9DF4693F66A7784C /* Build configuration list for PBXNativeTarget "Pods-mentionedUser" */;
+			buildPhases = (
+				A97EDCD1B518448D80D73A555325461E /* Headers */,
+				BBAE9B037378D44F1A9F898A150C1E70 /* Sources */,
+				5266C9B9101CCDA18E628CC233E13220 /* Frameworks */,
+				6C033C48B86B93DDC435FDB9E4D72CF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B12E286E3D0519038DD993DB81526EA4 /* PBXTargetDependency */,
+				AC67D15D956D7CB2055DF7FAE9944261 /* PBXTargetDependency */,
+			);
+			name = "Pods-mentionedUser";
+			productName = Pods_mentionedUser;
+			productReference = E2B9F143346B5BD0CFA72AD640F9FBBB /* Pods-mentionedUser */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 805DEC4391B6762E845AD4C87CDB4414 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A704EC846C1622DD6A65C37AB77A4EA7 /* Hakawai */,
+				B38A898C953409AD8A473D222385CAF9 /* Pods-mentionedUser */,
+				7B3268C9366950DDBB3313F1FA07E7AD /* SZMentionsSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C033C48B86B93DDC435FDB9E4D72CF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7450D31B212B24AD713273C5CE79286 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A82BFDD93C1A47AA5532F1E848574CCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B0B9DF25CFD0FDC2A9545773C642F92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FE03D3B8E9C95445C48501AD17386FA /* Attribute.swift in Sources */,
+				E6DA0BE7EB3BCCADE8472F1E4A806FC3 /* AttributeContainer.swift in Sources */,
+				D1814906CA6C7BE46C402488678156CB /* CreateMention.swift in Sources */,
+				55BE82BB69AB1586683726D1AEBB5D45 /* Mention.swift in Sources */,
+				3F9CB0D67AC1D29764529EE2FBEF0D36 /* MentionListener.swift in Sources */,
+				E8CC424ED015AE39133CF689FDFEBF5B /* MentionsArray.swift in Sources */,
+				321E5906632FEE3E0125E55EB2680E67 /* MentionsManagerDelegate.swift in Sources */,
+				91F78BB0416BCD4740D9E7B1B6D398B9 /* NSAttributedString.swift in Sources */,
+				A8F2F657C6D10C7BF326FB22B2ADE839 /* NSRange.swift in Sources */,
+				529830C0D2D4B926AF576F84CB4C5236 /* Operators.swift in Sources */,
+				2D4FD178EEE240CC779EDAF58BFC307E /* String.swift in Sources */,
+				EEF971005103F1C992F79FBBBBDC3B73 /* SZMentionsSwift-dummy.m in Sources */,
+				7E0E8F8746295F292A14B8E11CECBAD4 /* Verifier.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBAE9B037378D44F1A9F898A150C1E70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				300EDE7AB02E652D3063244F4053BCF9 /* Pods-mentionedUser-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEE2657BB2C694168C912CD53915118F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F1D88B810F6A4BC4CB9A9365C6BB393 /* Hakawai-dummy.m in Sources */,
+				4A338722B8843A2BA8CD27B9D6182E7B /* HKWAbstractionLayer.m in Sources */,
+				B08D61ABD607730800D24C31D2DDD6C6 /* HKWAttribute.m in Sources */,
+				337CE7D3FE8A4CA989E119B6EFEF211A /* HKWCustomAttributes.m in Sources */,
+				51F9C586535A386A1E84319FCFBCC085 /* HKWDefaultChooserArrowView.m in Sources */,
+				7403587D13ABD7A5EC6724BEC61334B9 /* HKWDefaultChooserBorderView.m in Sources */,
+				6DEE7BFB84F6D787D7A8ADCE44E3C5B3 /* HKWDefaultChooserView.m in Sources */,
+				3B435817B73E936AB4F4420E7CA64DC0 /* HKWExternalMentionConstants.m in Sources */,
+				0C4991775BBC4EB66BDD7796EB451C42 /* HKWLayoutManager.m in Sources */,
+				C85E15232744CC1EC6D8AFC8BDD12FB2 /* HKWMentionDataProvider.m in Sources */,
+				85B353E6FF2BF9207B0F7A888A19003F /* HKWMentionsAttribute.m in Sources */,
+				44C0C30CC806424053FF8DD1738DA734 /* HKWMentionsCreationStateMachine.m in Sources */,
+				AC5607D039FDAA66F5970F8965CB396C /* HKWMentionsPluginV1.m in Sources */,
+				8BC92A75D56EE7B8959BBB17CF62CD84 /* HKWMentionsPluginV2.m in Sources */,
+				C9199F5D095F4D99F41B5AF4655A857F /* HKWMentionsStartDetectionStateMachine.m in Sources */,
+				0A93176BA2DF80EA62643A5DD865ED13 /* HKWRoundedRectBackgroundAttributeValue.m in Sources */,
+				163CE7ACDCC53B5050EE3635518D4ED9 /* HKWTextView.m in Sources */,
+				89E42BF17194798E7E6E5969D98C406D /* HKWTextView+Extras.m in Sources */,
+				ACE5A44ACAA8A8AC68CD658223F55BEB /* HKWTextView+Plugins.m in Sources */,
+				27DCF9921674DB38E4298D45FD92D2E8 /* HKWTextView+TextTransformation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC67D15D956D7CB2055DF7FAE9944261 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SZMentionsSwift;
+			target = 7B3268C9366950DDBB3313F1FA07E7AD /* SZMentionsSwift */;
+			targetProxy = E75EC262A002765A640BAA3C5A223121 /* PBXContainerItemProxy */;
+		};
+		B12E286E3D0519038DD993DB81526EA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Hakawai;
+			target = A704EC846C1622DD6A65C37AB77A4EA7 /* Hakawai */;
+			targetProxy = 6252BC459B974934BAEEF6A9316DCA5D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		71B32AAB5F98EC0A10BCA682F20121B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BA2CE0DADB8864CBA2C976AC9B63636 /* Hakawai.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Hakawai/Hakawai-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Hakawai/Hakawai-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Hakawai/Hakawai.modulemap";
+				PRODUCT_MODULE_NAME = Hakawai;
+				PRODUCT_NAME = Hakawai;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8379C6551F5BD174053991049C623385 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5A22A696A00CAD2D3E9C92F126C6BBC /* Hakawai.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Hakawai/Hakawai-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Hakawai/Hakawai-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Hakawai/Hakawai.modulemap";
+				PRODUCT_MODULE_NAME = Hakawai;
+				PRODUCT_NAME = Hakawai;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B2EE957867EDDF6075F4AAA5AD9E1BC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A713D5E8356045BB5F5C26A812F307F1 /* Pods-mentionedUser.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-mentionedUser/Pods-mentionedUser-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-mentionedUser/Pods-mentionedUser.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BC01E0B73776AF6B58DC318A9BE988D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C605C363CC9F26F9FF97DBB1D5C6E25C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		C65995BDF1A724EC5357C498C17B5AD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62DBC8E3F0313F9A6BEA4A8F72226050 /* SZMentionsSwift.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SZMentionsSwift/SZMentionsSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SZMentionsSwift/SZMentionsSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SZMentionsSwift/SZMentionsSwift.modulemap";
+				PRODUCT_MODULE_NAME = SZMentionsSwift;
+				PRODUCT_NAME = SZMentionsSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CC218F9E543ED2CCF68C12F1F1ABA1DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 005B33FF0353017EC85B77A3BBC6A966 /* SZMentionsSwift.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SZMentionsSwift/SZMentionsSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SZMentionsSwift/SZMentionsSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SZMentionsSwift/SZMentionsSwift.modulemap";
+				PRODUCT_MODULE_NAME = SZMentionsSwift;
+				PRODUCT_NAME = SZMentionsSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D38406818586B2251456FB6182B77AEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8C7A583BEEB2DB69270FAE9C63447F4 /* Pods-mentionedUser.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-mentionedUser/Pods-mentionedUser-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-mentionedUser/Pods-mentionedUser.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC01E0B73776AF6B58DC318A9BE988D7 /* Debug */,
+				C605C363CC9F26F9FF97DBB1D5C6E25C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BA555965F4AD830EDC50698CFAD3F87 /* Build configuration list for PBXNativeTarget "Hakawai" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8379C6551F5BD174053991049C623385 /* Debug */,
+				71B32AAB5F98EC0A10BCA682F20121B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D19944EF54B1CB537C5DD544073AFE0B /* Build configuration list for PBXNativeTarget "SZMentionsSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C65995BDF1A724EC5357C498C17B5AD3 /* Debug */,
+				CC218F9E543ED2CCF68C12F1F1ABA1DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F242815FEE185F3E9DF4693F66A7784C /* Build configuration list for PBXNativeTarget "Pods-mentionedUser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D38406818586B2251456FB6182B77AEA /* Debug */,
+				B2EE957867EDDF6075F4AAA5AD9E1BC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

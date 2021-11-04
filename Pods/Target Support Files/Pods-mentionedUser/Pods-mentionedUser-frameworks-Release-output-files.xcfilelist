@@ -1,0 +1,2 @@
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Hakawai.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SZMentionsSwift.framework
